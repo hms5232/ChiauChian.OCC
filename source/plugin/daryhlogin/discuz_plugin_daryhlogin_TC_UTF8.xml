@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="name"><![CDATA[Yahoo整合登入]]></item>
+			<item id="identifier"><![CDATA[daryhlogin]]></item>
+			<item id="description"><![CDATA[本插件方便用戶直接以Yahoo帳號登入Discuz]]></item>
+			<item id="directory"><![CDATA[daryhlogin/]]></item>
+			<item id="copyright"><![CDATA[RDEVHOST]]></item>
+			<item id="version"><![CDATA[2.75]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[pagehook]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[check]]></item>
+					<item id="menu"><![CDATA[連線檢測]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[help]]></item>
+					<item id="menu"><![CDATA[使用幫助]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[pagehook]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3]]></item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[站台識別碼]]></item>
+				<item id="description"><![CDATA[系統自動配發(12位數字)，請勿修改]]></item>
+				<item id="variable"><![CDATA[siteid]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[登入圖示URL]]></item>
+				<item id="description"><![CDATA[可客製化登入ICON圖示]]></item>
+				<item id="variable"><![CDATA[iconurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[source/plugin/daryhlogin/yhlogin.gif]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[登入ICON說明文字]]></item>
+				<item id="description"><![CDATA[首頁登入ICON下方的說明文字]]></item>
+				<item id="variable"><![CDATA[comment]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[免註冊即享有會員功能]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[積分獎勵類型]]></item>
+				<item id="description"><![CDATA[鼓勵用Yahoo註冊登入，"空"表示不獎勵]]></item>
+				<item id="variable"><![CDATA[ectype]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[積分獎勵數量]]></item>
+				<item id="description"><![CDATA[鼓勵用Yahoo註冊登入，可設定適當的數量，讓Yahoo會員成為較高的用戶組]]></item>
+				<item id="variable"><![CDATA[ecnumber]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[100]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[自動綁定]]></item>
+				<item id="description"><![CDATA[當存在相同Email導致無法自動註冊時，改用綁定方式]]></item>
+				<item id="variable"><![CDATA[autobind]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[手機版連結文字]]></item>
+				<item id="description"><![CDATA[顯示在手機版的登入連結文字]]></item>
+				<item id="variable"><![CDATA[mobilelink]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[Yahoo登入]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[觸屏版連結文字]]></item>
+				<item id="description"><![CDATA[顯示在觸屏版的登入連結文字(X3)]]></item>
+				<item id="variable"><![CDATA[touchlink]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[用Yahoo帳號登入]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[Yahoo登入頁地區]]></item>
+				<item id="description"><![CDATA[台灣: zh-Hant-TW , 大陸: zh-Hant-CN , 香港: zh-Hant-HK]]></item>
+				<item id="variable"><![CDATA[lang]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[zh-Hant-TW]]></item>
+			</item>
+		</item>
+	</item>
+</root>

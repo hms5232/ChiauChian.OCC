@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[strong_kx.plugin]]></item>
+	<item id="RevisionID"><![CDATA[49670]]></item>
+	<item id="SN"><![CDATA[2017082223ACP2pPIPpc]]></item>
+	<item id="RevisionDateline"><![CDATA[1429189206]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_strong_kx_TC_UTF8.xml"><![CDATA[1cebe0f332225dd596bcfb364e2756a0]]></item>
+		<item id="/discuz_plugin_strong_kx_SC_UTF8.xml"><![CDATA[ee97c93ad6c87484d9dfc5fa1e58969f]]></item>
+		<item id="/strong_g_set.php"><![CDATA[dd9c90f7cfca35d4348f0ef308cf37a7]]></item>
+		<item id="/discuz_plugin_strong_kx_TC_BIG5.xml"><![CDATA[3e9f3b53c6ed45691d76cac91167e421]]></item>
+		<item id="/discuz_plugin_strong_kx_SC_GBK.xml"><![CDATA[3c7881848ae3049d536a72e7dabfe7f0]]></item>
+	</item>
+</root>

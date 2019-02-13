@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3,X3.1,X3.2]]></item>
+	<item id="Time"><![CDATA[2015-04-16 07:33]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/dz_exploit/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[strong_kx手机设置中心]]></item>
+			<item id="identifier"><![CDATA[strong_kx]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[strong_kx/]]></item>
+			<item id="copyright"><![CDATA[QQ695023684]]></item>
+			<item id="modules"><![CDATA[a:0:{}]]></item>
+			<item id="version"><![CDATA[v1.0]]></item>
+		</item>
+		<item id="version"><![CDATA[X3,X3.1,X3.2]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[默认首页]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[homeset]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[4]]></item>
+				<item id="extra"><![CDATA[1=门户
+2=社区
+3=导读
+4=论坛]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[导航栏背景色]]></item>
+				<item id="description"><![CDATA[导航栏背景颜色 ，如#FC5218]]></item>
+				<item id="variable"><![CDATA[dh_bg_color]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#3694FC]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[13]]></item>
+				<item id="title"><![CDATA[按钮颜色]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[buttoncolor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#4A87E5]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[14]]></item>
+				<item id="title"><![CDATA[链接颜色]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[fontcolor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#4c4c4c]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[15]]></item>
+				<item id="title"><![CDATA[链接辅助颜色]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[linkcolor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#4A87E5]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[16]]></item>
+				<item id="title"><![CDATA[链接点睛颜色]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[dianjingcolor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#FC8120]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[40]]></item>
+				<item id="title"><![CDATA[图片列表模式]]></item>
+				<item id="description"><![CDATA[请填入开启此模式板块id,多板块以英文逗号分隔,如1,2,3,4,5]]></item>
+				<item id="variable"><![CDATA[titlepic]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[70]]></item>
+				<item id="title"><![CDATA[开启瀑布流的板块]]></item>
+				<item id="description"><![CDATA[请填入开启此模式板块id,多板块以英文逗号分隔,如1,2,3,4,5]]></item>
+				<item id="variable"><![CDATA[pic]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[80]]></item>
+				<item id="title"><![CDATA[只显示有图片附件的]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[truepic]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[83]]></item>
+				<item id="title"><![CDATA[是否显示分享代码]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[iffenxiang]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[84]]></item>
+				<item id="title"><![CDATA[分享代码]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[fenxiangdaima]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[85]]></item>
+				<item id="title"><![CDATA[随机阅读]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[randpost]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[0=关闭
+1=开启]]></item>
+			</item>
+			<item id="12">
+				<item id="displayorder"><![CDATA[86]]></item>
+				<item id="title"><![CDATA[显示随机帖子数]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[randpostnum]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="13">
+				<item id="displayorder"><![CDATA[90]]></item>
+				<item id="title"><![CDATA[全局菜单设置]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[leftmenu]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[    <a href="forum.php" class="menuItem fa fa-home fa-2x"  title="首页"></a>
+    <a href="forum.php?forumlist=1" class="menuItem fa  fa-comments fa-2x"  title="论坛"></a>
+    <a href="portal.php?mod=list&catid=1" class="menuItem fa  fa-file-text-o fa-2x"  title="文章"></a>
+    <a href="" class="menuItem fa  fa-picture-o fa-2x"  title="图片"></a>
+    <a href="misc.php?mod=tag" class="menuItem fa  fa-tag fa-2x"  title="标签"></a>
+    <a href="home.php?mod=space&do=profile&mycenter=1" class="menuItem fa fa-user fa-2x"  title="个人中心"></a>
+    <a href="home.php?mod=space&do=favorite&view=me&type=thread" class="menuItem fa fa-star fa-2x"  title="收藏"></a>
+    <a href="search.php?mod=forum" class="menuItem fa  fa-search fa-2x"  title="搜索"></a>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>

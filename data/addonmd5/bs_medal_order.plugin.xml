@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[bs_medal_order.plugin]]></item>
+	<item id="RevisionID"><![CDATA[72276]]></item>
+	<item id="SN"><![CDATA[20170921191KBZG334bq]]></item>
+	<item id="RevisionDateline"><![CDATA[1491256804]]></item>
+	<item id="Data">
+		<item id="/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/discuz_plugin_bs_medal_order_TC_BIG5.xml"><![CDATA[3b84af3ae15fbe13f92477397cd1173d]]></item>
+		<item id="/discuz_plugin_bs_medal_order_SC_UTF8.xml"><![CDATA[5283b24ddfba6b4e53519a9c845461c7]]></item>
+		<item id="/discuz_plugin_bs_medal_order_TC_UTF8.xml"><![CDATA[6d129df9bcbd8d9944ee91f767c6bcaf]]></item>
+		<item id="/bs_medal_order.class.php"><![CDATA[a73149fda5f9e92b369c3b1b634cc9d9]]></item>
+		<item id="/js/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/js/jquery.sortable.min.js"><![CDATA[c98ca0454e801e38dde76743f67bd8d8]]></item>
+		<item id="/js/jquery.min.js"><![CDATA[8101d596b2b8fa35fe3a634ea342d7c3]]></item>
+		<item id="/order.inc.php"><![CDATA[2f56d63baea1c1957d9b001652e019d2]]></item>
+		<item id="/discuz_plugin_bs_medal_order_SC_GBK.xml"><![CDATA[2762538f01a7fb4bedf59d17fa705920]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/extend_common.css"><![CDATA[aaf457fcf41e240ce1505d4b141f90b2]]></item>
+		<item id="/template/order.php"><![CDATA[2951a170488d334b7c117b07cf76f0a4]]></item>
+	</item>
+</root>

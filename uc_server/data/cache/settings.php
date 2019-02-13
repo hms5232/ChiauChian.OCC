@@ -1,0 +1,32 @@
+<?php
+$_CACHE['settings'] = array (
+  'accessemail' => '',
+  'censoremail' => '',
+  'censorusername' => '',
+  'dateformat' => 'y-n-j',
+  'doublee' => '0',
+  'nextnotetime' => '0',
+  'timeoffset' => '28800',
+  'privatepmthreadlimit' => '25',
+  'chatpmthreadlimit' => '30',
+  'chatpmmemberlimit' => '35',
+  'pmfloodctrl' => '15',
+  'pmcenter' => '1',
+  'sendpmseccode' => '1',
+  'pmsendregdays' => '0',
+  'maildefault' => 'occtaiwan@gmail.com',
+  'mailsend' => '2',
+  'mailserver' => 'ssl://smtp.gmail.com',
+  'mailport' => '465',
+  'mailauth' => '1',
+  'mailfrom' => '僑牽 <occtaiwan@gmail.com>',
+  'mailauth_username' => 'occtaiwan@gmail.com',
+  'mailauth_password' => '103213013',
+  'maildelimiter' => '0',
+  'mailusername' => '1',
+  'mailsilent' => '1',
+  'login_failedtime' => '5',
+  'version' => '1.6.0',
+);
+
+?>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[weijie_qr.plugin]]></item>
+	<item id="RevisionID"><![CDATA[73609]]></item>
+	<item id="SN"><![CDATA[2017092119tfg0J92vF1]]></item>
+	<item id="RevisionDateline"><![CDATA[1495112404]]></item>
+	<item id="Data">
+		<item id="/index.htm"><![CDATA[81051bcc2cf1bedf378224b0a93e2877]]></item>
+		<item id="/discuz_plugin_weijie_qr_TC_UTF8.xml"><![CDATA[e881e4fc5a959ce1425e24605df16709]]></item>
+		<item id="/discuz_plugin_weijie_qr_TC_BIG5.xml"><![CDATA[5b98cef6a65bcc6f53a061ccc8dd3cee]]></item>
+		<item id="/weijie_qr.class.php"><![CDATA[da7a92830b19512df0280ae940b5eb11]]></item>
+		<item id="/discuz_plugin_weijie_qr_SC_GBK.xml"><![CDATA[f853f125177ed974fae34fa2d26b7c6b]]></item>
+		<item id="/discuz_plugin_weijie_qr_SC_UTF8.xml"><![CDATA[63cc877116c3f7ca9e9934fd9c7dccbe]]></item>
+		<item id="/phpqrcode/phpqrcode.php"><![CDATA[a6a383713b2d76665c2a6e79e942b2e9]]></item>
+		<item id="/phpqrcode/index.html"><![CDATA[81051bcc2cf1bedf378224b0a93e2877]]></item>
+		<item id="/weijie_qr.inc.php"><![CDATA[71686de5b9922b34672f1a58effdd5a1]]></item>
+	</item>
+</root>

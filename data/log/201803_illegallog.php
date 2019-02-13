@@ -1,0 +1,14 @@
+<?PHP exit;?>	1520381624	Meredith07	5Y***5	Ques #0	107.173.78.249
+<?PHP exit;?>	1520918996	StephenFur	PW8***w1	Ques #0	107.175.80.147
+<?PHP exit;?>	1521033531	VictorinaS	Fs***wj	Ques #0	23.88.24.98
+<?PHP exit;?>	1521600276	AlejandroW	9o***j	Ques #0	23.95.204.139
+<?PHP exit;?>	1521667621	AlejandroW	9o***j	Ques #0	23.95.204.139
+<?PHP exit;?>	1521826280	LarryMacon	DuH***33	Ques #0	23.95.81.87
+<?PHP exit;?>	1521870581	PeteT29936	og***H	Ques #0	23.106.237.114
+<?PHP exit;?>	1521880413	LarryMacon	DuH***33	Ques #0	23.95.81.87
+<?PHP exit;?>	1521924668	PeteT29936	og***H	Ques #0	23.106.237.114
+<?PHP exit;?>	1522050251	BereniceBu	48***Q	Ques #0	107.172.225.35
+<?PHP exit;?>	1522104987	BereniceBu	48***Q	Ques #0	107.172.225.35
+<?PHP exit;?>	1522135943	MiguelHill	Zf***bn	Ques #0	107.175.81.152
+<?PHP exit;?>	1522223759	PattyTruit	NaV***tG	Ques #0	107.173.78.249
+<?PHP exit;?>	1522278181	PattyTruit	NaV***tG	Ques #0	107.173.78.249

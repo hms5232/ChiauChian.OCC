@@ -1,0 +1,38 @@
+<!--{eval $sipath="template/rabbit_ngbc/image/user.png";}-->
+<!--{if $_G['uid']}-->
+<div class="rabbit_nv_right"><a href="home.php?mod=space&uid=$_G[uid]" target="_blank" title="{lang visit_my_space}"><div class="rabbit_nv_avtar"><!--{avatar($_G[uid],middle)}--></div></a><a href="home.php?mod=spacecp" target="_blank" title="&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x4E2A;&#x4EBA;&#x8BBE;&#x7F6E;&#x9762;&#x677F;">
+        
+	<div class="rabbit_nvlitter"><a href="home.php?mod=space&uid=$_G[uid]" target="_blank" class="dropbtn"> <b><font color="#FFF">{$_G[username]}</font></b></a><!--{if $_G[member][newprompt]}--><a href="home.php?mod=space&do=notice"><span title="&#x60A8;&#x6709;$_G[member][newprompt]&#x6761;&#x672A;&#x8BFB;&#x63D0;&#x9192;,&#x70B9;&#x51FB;&#x67E5;&#x770B;" class="{if $_G[member][newprompt]}rabbit_ts{/if}"><font color="#FFFFFF"><b>&nbsp;N&nbsp;</b></font></span></a><!--{elseif $_G[member][newpm]}--><a href="home.php?mod=space&do=pm"><span title="&#x6709;&#x4EBA;&#x6EF4;&#x6EF4;&#x4F60;,&#x8BF7;&#x70B9;&#x51FB;&#x67E5;&#x770B;" class="{if $_G[member][newpm]}rabbit_pm{/if}"><font color="#FFFFFF"><b>&nbsp;N&nbsp;</b></font></span></a><!--{/if}-->
+		<div class="rabbit_nvlitter">
+		<div class="rabbit_nvlitter-content">
+			<a href="home.php?mod=spacecp" target="_blank">&#x8D26;&#x53F7;&#x8BBE;&#x7F6E;</a>
+            <a href="home.php?mod=space&do=pm" target="_blank"><!--{if $_G[member][newpm]}--><font color="red"><b>&#x6536;&#x5230;&#x77ED;&#x4FE1;</b></font><!--{else}-->&#x6211;&#x7684;&#x77ED;&#x4FE1;<!--{/if}--></a>
+            <a href="home.php?mod=space&do=notice"id="myprompt" class="a" target="_blank"><!--{if $_G[member][newprompt]}--><font color="red"><b>&#x63D0;&#x9192;($_G[member][newprompt])</b></font><!--{else}-->&#x7AD9;&#x5185;&#x63D0;&#x9192;<!--{/if}--></a>
+		<!--{if $_G['uid'] && getstatus($_G['member']['allowadmincp'], 1)}-->
+            <a href="admin.php" target="_blank">{lang admincp}</a>
+			<a href="javascript:saveUserdata('diy_advance_mode', '1');openDiy();" target="_blank">&#x9875;&#x9762;DIY</a>
+		<!--{/if}-->
+		<!--{if $_G['forum']['ismoderator'] && !$_GET['archiveid']}-->
+		<!--{if $_G['forum']['recyclebin']}-->
+							<a href="{if $_G['adminid'] == 1}admin.php?mod=forum&action=recyclebin&frames=yes{elseif $_G['forum']['ismoderator']}forum.php?mod=modcp&action=recyclebin&fid=$_G[fid]{/if}" class="fa_bin" target="_blank">&#x56DE;&#x6536;&#x7AD9;</a>
+						<!--{/if}-->	<!--{/if}-->
+						<!--{if $_G['forum']['ismoderator'] && !$_GET['archiveid']}-->
+							<!--{if $_G['forum']['status'] != 3}-->
+								<a href="forum.php?mod=modcp&fid=$_G[fid]">&#x7BA1;&#x7406;&#x9762;&#x677F;</a>
+							<!--{else}-->
+								<a href="forum.php?mod=group&action=manage&fid=$_G[fid]">&#x7BA1;&#x7406;&#x9762;&#x677F;</a>
+							<!--{/if}--><!--{/if}-->
+		<!--{hook/global_usernav_extra1}-->
+        <!--{hook/global_usernav_extra2}-->
+		<!--{hook/global_usernav_extra3}-->
+		<!--{hook/global_usernav_extra4}-->
+        </div>
+    </div></a></div>
+	<div class="rabbit_zx"><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">&#x6CE8;&#x9500;&#x8D26;&#x53F7;</a></div>
+<!--{elseif !empty($_G['cookie']['loginuser'])}-->
+<!--{elseif !$_G[connectguest]}-->
+<!--{hook/global_usernav_extra1}-->
+<div class="rabbit_nv_before"><div class="rabbit_icon" style="float:left;padding-right:0px;margin-top:-10px;"><img src=" {$sipath}"></div>&#x6B22;&#x8FCE;&#x60A8;&#x7684;&#x6765;&#x8BBF; , &#x8BF7;<a href="javascript:;" onclick="showWindow('login', 'member.php?mod=logging&amp;action=login')" style="color:#FFF">&#x767B;&#x5165;</a>&#x6216;<a href="member.php?mod=register" style="color:#FFF">&#x6CE8;&#x518C;</a></div>
+<!--{else}-->
+<div class="rabbit_nv_before"><div class="rabbit_icon" style="float:left;padding-right:0px;margin-top:-10px;"><img src=" {$sipath}"></div>&#x6B22;&#x8FCE;&#x60A8;&#x7684;&#x6765;&#x8BBF; , &#x8BF7;<a href="javascript:;" onclick="showWindow('login', 'member.php?mod=logging&amp;action=login')" style="color:#FFF">&#x767B;&#x5165;</a>&#x6216;<a href="member.php?mod=register" style="color:#FFF">&#x6CE8;&#x518C;</a></div>
+<!--{/if}-->

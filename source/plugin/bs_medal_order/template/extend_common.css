@@ -1,0 +1,45 @@
+/**
+ * bs_medal_order for Discuz!
+ * v1.0
+ *
+ * Author: Brownsugar (contact@brownsugar.tw)
+ * https://brownsugar.tw
+ */
+.medal-list {
+	background: #E0E0E0;
+	width: 300px;
+	padding: 8px;
+	font-size: 14px;
+}
+.medal-list li {
+	background: #FFF;
+	padding: 8px 10px;
+}
+.medal-list .sortable-dragging {
+	background: #f0f0f0;
+	box-shadow: 0 1px 3px #899;
+	transform: scaleY(0.9);
+	-moz-transform: scaleY(0.9);
+	-webkit-transform: scaleY(0.9);
+}
+.medal-list .sortable-placeholder {
+	background: #f0f0f0;
+}
+.medal-list .drag-trigger {
+	display: inline-block;
+	margin-right: 10px;
+	width: 13px;
+	height: 13px;
+	background: url({STATICURL}image/common/drag.gif) no-repeat;
+	cursor: move;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+}
+.medal-list .drag-trigger:active {
+	cursor: -moz-grabbing;
+	cursor: -webkit-grabbing;
+}
+.medal-list img {
+	margin-right: 6px;
+	vertical-align: middle;
+}

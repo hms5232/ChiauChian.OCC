@@ -1,0 +1,14 @@
+<?PHP exit;?>	1503234622	魚哥	1	101.9.178.86	login		1	GET={mod=modcp; fid=1; action=login; }; POST={};
+<?PHP exit;?>	1503234637	魚哥	1	101.9.178.86	thread		1	GET={mod=modcp; fid=1; action=thread; }; POST={};
+<?PHP exit;?>	1503234647	魚哥	1	101.9.178.86	moderate	threads	1	GET={mod=modcp; action=moderate; op=threads; fid=1; }; POST={};
+<?PHP exit;?>	1503234650	魚哥	1	101.9.178.86	thread	thread	1	GET={mod=modcp; action=thread; op=thread; fid=1; }; POST={};
+<?PHP exit;?>	1503234665	魚哥	1	101.9.178.86	thread	post	1	GET={mod=modcp; action=thread; op=post; fid=1; }; POST={};
+<?PHP exit;?>	1503234666	魚哥	1	101.9.178.86	recyclebin		1	GET={mod=modcp; action=recyclebin; fid=1; }; POST={};
+<?PHP exit;?>	1503234668	魚哥	1	101.9.178.86	thread	thread	1	GET={mod=modcp; action=thread; op=thread; fid=1; }; POST={};
+<?PHP exit;?>	1503234702	im10707	1	101.9.178.86	login	thread	1	GET={mod=modcp; action=login; op=thread; fid=1; }; POST={};
+<?PHP exit;?>	1503234712	im10707	1	101.9.178.86	thread	thread	1	GET={mod=modcp; action=thread; op=thread; fid=1; }; POST={};
+<?PHP exit;?>	1503234717	im10707	1	101.9.178.86	forum	recommend	1	GET={mod=modcp; action=forum; op=recommend; show=all; fid=1; }; POST={};
+<?PHP exit;?>	1503234719	im10707	1	101.9.178.86	forum	recommend	1	GET={mod=modcp; action=forum; op=recommend; show=all; fid=1; }; POST={};
+<?PHP exit;?>	1503234721	im10707	1	101.9.178.86	thread	thread	1	GET={mod=modcp; action=thread; op=thread; fid=1; }; POST={};
+<?PHP exit;?>	1503234725	im10707	1	101.9.178.86	forum	editforum	1	GET={mod=modcp; action=forum; op=editforum; fid=1; }; POST={};
+<?PHP exit;?>	1503234921	im10707	1	101.9.178.86	forum	editforum	1	GET={mod=modcp; action=forum; op=editforum; fid=1; diy=yes; }; POST={};

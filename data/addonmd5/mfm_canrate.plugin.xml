@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[mfm_canrate.plugin]]></item>
+	<item id="RevisionID"><![CDATA[64677]]></item>
+	<item id="SN"><![CDATA[20170921209OWERIWNG7]]></item>
+	<item id="RevisionDateline"><![CDATA[1463457601]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_mfm_canrate_SC_UTF8.xml"><![CDATA[c9283396a78b9c60708fa69873b65157]]></item>
+		<item id="/discuz_plugin_mfm_canrate_SC_GBK.xml"><![CDATA[cda2957b16b83ee33ea6f42a5d8fa1a9]]></item>
+		<item id="/discuz_plugin_mfm_canrate_TC_UTF8.xml"><![CDATA[3d7a0aaa0994f260f6dd21ade2c6492c]]></item>
+		<item id="/discuz_plugin_mfm_canrate_TC_BIG5.xml"><![CDATA[a802f37c8b651cd6195caa729659743d]]></item>
+		<item id="/canrate.class.php"><![CDATA[30c793352592e31f553d4723a7656153]]></item>
+	</item>
+</root>
